@@ -18,10 +18,10 @@ conda env create --file electrolyte_env.yml
 
 ## Training the RL Agent
 
-The `run_electrolyte.py` script trains the RL agent and has a few command line options for expeirmenting with the training process.
-Run `python run_electrolyte.py --help` to see the command line options.
+The `run_rl.py` script trains the RL agent and has a few command line options for expeirmenting with the training process.
+Run `python run_rl.py --help` to see the command line options.
 
-Running the script with default settings (i.e., `python run_electrolyte.py`) should take less than 10 minutes.
+Running the script with default settings (i.e., `python run_rl.py`) should take less than 10 minutes.
 
 Each run of this agent will produce a subdirectory of `./rl_tests/` that contains the configuration used for the experiment
 and a log containing records at each step:
